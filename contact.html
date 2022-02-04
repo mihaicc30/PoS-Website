@@ -101,7 +101,7 @@
 
 					<div class="row">
 						<!-- <iframe name="myframe" id="frame1" style="display:none;"></iframe> -->
-						<form action="contact.php" method="POST" id="contact_formz" name="contact_formz" netlify>
+						<form action="contact.php" method="POST" id="contact_formz" name="contact_formz" data-netlify="true">
 							<div class="col-md-6">
 								<div class="form-group">
 									<input placeholder="Name" id="name" name="name" type="text" class="form-control input-lg" required>
@@ -124,7 +124,7 @@
 							</div>
 							<div class="col-md-6">
 								<div class="form-group">
-									<input type="submit" class="btn btn-primary " value="Send" name="contact_formz" id="contact_formz" onsubmit="make_changes()">
+									<input type="submit" class="btn btn-primary " value="Send" name="contact_formz" id="contact_formz" onclick="make_changes()">
 
 									<input type="reset" class="btn btn-outline  " value="Reset">
 								</div>	
