@@ -5902,7 +5902,6 @@ pre {
   color: white;
   border-bottom: 1px solid white; }
 .owl-carousel-fullwidth .item .fh5co-owl-text .fh5co-lead, .owl-carousel-fullwidth .item .fh5co-owl-text .fh5co-sub-lead {
-  color: #fff;
   margin: 0;
   padding: 0;
   font-weight: 100; }
@@ -5981,4 +5980,22 @@ a > img.fh5co-align-center {
 /*# sourceMappingURL=style.css.map */
 .spanx {
 	color: red;
+}
+.fh5co-lead {
+  color: #FBB040;
+  word-spacing: 5px;
+  line-height: 70px;
+  /* font-family: fantasy; */
+  /* font-weight: bolder; */
+  font-size: 4em;
+  text-shadow: 3px 3px 5px #000;
+ }
+.fh5co-sub-lead {
+  color: #FBB040;
+  word-spacing: 5px;
+  line-height: 70px;
+  /* font-family: fantasy; */
+  /* font-weight: bolder; */
+  font-size: 4em;
+  text-shadow: 3px 3px 5px #000;
 }
