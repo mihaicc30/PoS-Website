@@ -48,7 +48,7 @@
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
-
+	<script src="edit_table.js" defer></script>	
 	</head>
 	<body>
 		
@@ -130,7 +130,8 @@ height: 80px;
 					<a href="#" class="btn btn-outline">Button outline</a> -->
 					
 					<div class="row">
-						<form action="contact.php" method="post">
+						<iframe name="myframe" id="frame1" src="process.php" style="display:none;"></iframe>
+						<form action="contact.php" method="post" id="contact_formz" name="contact_formz" target="myframe">
 							<div class="col-md-6">
 								<div class="form-group">
 									<!-- <label for="name" class="sr-only">Email</label> -->
@@ -157,7 +158,7 @@ height: 80px;
 							</div>
 							<div class="col-md-6">
 								<div class="form-group">
-									<input type="submit" class="btn btn-primary " value="Send">
+									<input type="submit" class="btn btn-primary " value="Send" name="contact_formz" id="contact_formz" onclick="make_changes()">
 
 									<input type="reset" class="btn btn-outline  " value="Reset">
 								</div>	
