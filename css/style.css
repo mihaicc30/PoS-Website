@@ -5612,9 +5612,17 @@ pre {
 
 #fh5co-clients {
   padding: 3em 0;
-  background: #FBB040; }
+  background: #FBB040;
+}
+  
+#touch {
+  font-size: 3em;
+  color: #070707;
+}
+
 #fh5co-clients .fh5co-client-logo {
   text-align: center;
+
   margin-bottom: 0; }
 @media screen and (max-width: 992px) {
   #fh5co-clients .fh5co-client-logo {
