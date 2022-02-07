@@ -1595,7 +1595,9 @@ pre code {
 
 @media (min-width: 768px) {
   .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
-    float: left; }
+    /* float: left;  */
+    display: inline-block;
+  }
 
   .col-sm-1 {
     width: 8.33333%; }
@@ -5613,6 +5615,7 @@ pre {
 #fh5co-clients {
   padding: 3em 0;
   background: #FBB040;
+  cursor: pointer;
 }
   
 #touch {
@@ -5998,4 +6001,9 @@ a > img.fh5co-align-center {
   /* font-weight: bolder; */
   font-size: 4em;
   text-shadow: 3px 3px 5px #000;
+}
+.main-plans-color {
+  color:#FBB040;
+  font-size: 1.5em;
+  font-weight: bolder;
 }
